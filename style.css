@@ -1,0 +1,98 @@
+/* https://htmlcolorcodes.com/  
+https://www.webhostingsecretrevealed.net/blog/web-business-ideas/25-gorgeous-web-safe-fonts-for-your-website/
+https://www.cssfontstack.com/Andale-Mono
+https://www.youtube.com/watch?v=vTYkpzIOXCQ&pbjreload=101
+*/
+
+/* generic selector */
+body {
+	background-color: lightblue;
+	color: white; /*text color */
+	font-family: Andale Mono, monospace;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;	
+}
+a{
+	color: blue;
+	transition: color 200ms ease-in;
+}
+
+/*pseudo selector - user interacts*/
+
+a:hover {
+	color: orangered;
+}
+
+img { 
+	width: 100%; 
+}
+
+/* id and class selector */
+
+#container {
+	min-width: 320px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+/* nested selector */
+#header ul {
+	display: flex;
+}
+
+#header li {
+	margin-left: 1em;
+}
+
+#header a {
+	font-size: 1.5em;
+}
+
+#portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1em;
+}
+
+.project {
+	border: 1px solid orangered;
+	padding: 1em;
+	background-color: transparent;
+	transition: background-color 200ms ease-in;
+
+}
+
+.project:hover {
+	background-color: white;
+
+}
+
+.project a {
+	font-size: 1.25em;
+}
+
+/* about */
+
+#portrait{
+	width: 600px;
+	float: right;
+
+}
+
+#about p {
+	font-size: em;
+}
