@@ -2,15 +2,32 @@
 https://www.webhostingsecretrevealed.net/blog/web-business-ideas/25-gorgeous-web-safe-fonts-for-your-website/
 https://www.cssfontstack.com/Andale-Mono
 https://www.youtube.com/watch?v=vTYkpzIOXCQ&pbjreload=101
+https://hookagency.com/website-color-schemes/
+
+    font-family: 'Arimo', sans-serif;
+
+    font-family: 'Days One', sans-serif;
+
+    Fresh: #4ABDAC 
+    Vermillion: #FC4A1A
+    Sunshine: #F7B733
+    Clean: #DFDCE3 
+
 */
 
 /* generic selector */
 body {
-	background-color: lightblue;
+	background-color: #4ABDAC;
 	color: white; /*text color */
-	font-family: Andale Mono, monospace;
-
+	font-family: 'Arimo', sans-serif;
 }
+
+h1 {
+
+	font-family: 'Days One', sans-serif;
+}
+
+
 
 ul{
 	margin: 0;
@@ -21,14 +38,15 @@ li{
 	list-style: none;	
 }
 a{
-	color: blue;
+	color: #DFDCE3 ;
 	transition: color 200ms ease-in;
+	text-decoration: none;
 }
 
 /*pseudo selector - user interacts*/
 
 a:hover {
-	color: orangered;
+	color: #F7B733;
 }
 
 img { 
@@ -77,7 +95,7 @@ img {
 }
 
 .project:hover {
-	background-color: white;
+	background-color: #FC4A1A;
 
 }
 
